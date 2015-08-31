@@ -5,10 +5,16 @@
   "description": "A package generator for atom using babel",
   "repository": "https://github.com/ganarajpr/package-generator-babel",
   "license": "MIT",
+  "activationCommands": {
+    "atom-workspace": "package-generator:generate-babel-plugin"
+  },
   "engines": {
     "atom": ">0.50.0"
   },
   "dependencies": {
-    "event-kit": ">= 0.7.2"
+    "event-kit": ">= 0.7.2",
+    "fs-plus": "^2.8.1",
+    "react-for-atom": "^0.13.6",
+    "underscore-plus": "^1.6.6"
   }
 }
