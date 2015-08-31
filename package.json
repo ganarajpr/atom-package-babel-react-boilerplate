@@ -1,0 +1,14 @@
+{
+  "name": "package-generator-babel",
+  "main": "./lib/package-generator-babel",
+  "version": "0.0.0",
+  "description": "A package generator for atom using babel",
+  "repository": "https://github.com/ganarajpr/package-generator-babel",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "event-kit": ">= 0.7.2"
+  }
+}
