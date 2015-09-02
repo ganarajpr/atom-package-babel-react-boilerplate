@@ -1,12 +1,12 @@
 {
   "name": "package-generator-babel",
-  "main": "./lib/package-generator-babel",
+  "main": "./lib/hello-world-babel",
   "version": "0.0.0",
   "description": "A package generator for atom using babel",
   "repository": "https://github.com/ganarajpr/package-generator-babel",
   "license": "MIT",
   "activationCommands": {
-    "atom-workspace": "package-generator:generate-babel-plugin"
+    "atom-workspace": "test-me:hello-world"
   },
   "engines": {
     "atom": ">0.50.0"
